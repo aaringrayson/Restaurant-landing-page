@@ -325,9 +325,6 @@ footer {
         width: 100%;
         text-align: center;
     }
-    h1 {
-        font-size: 2rem;
-    }
 }
 @media (max-width: 639px) {
     form {
@@ -354,10 +351,10 @@ footer {
         padding: 4rem 0;
     }
     h1 {
-        font-size: 3rem;
+        font-size: 40px;
     }
     h2 {
-        font-size: 2rem;
+        font-size: 32px;
     }
 }
 @media (max-width:900px) {
@@ -369,12 +366,15 @@ footer {
         grid-template-columns: repeat(2, 1fr);
         gap: 2rem;
     }
+    .about-us .flex {
+        gap: 2rem;
+    }
 }
 @media (max-width: 1114px) {
     .about-us .flex {
         flex-direction: column;
     }
     .hero-details {
-        width: 80%;
-    }
+        width: 100%;
+    } 
 }
